@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/watches.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" href="./asset/img/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="./asset/js/javascript-File-input.js"></script>
+    <script src="https://kit.fontawesome.com/be9ef345a6.js" crossorigin="anonymous"></script>
+    <script src="./asset/js/main.js"></script>
+    <title>D&K</title>
+</head>
+<body id="body">
+    <div class="app">
+        <div class="header">
+            <div class="grip">
+                <div class="overlay--header"></div>
+                <div id="navbarLayout" class="navbar--border">
+                    <div class="navbar">
+                        <div class="navbar_left">
+                            <i id="search" class="navbar_icon-search fa fa-search"></i>
+                            <div id="searchOverlay" class="navbar-input-search">
+                                <input type="text" class="navbar-search" placeholder="Search your style">
+                                <i class="navbar_icon-in-search fa fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="navbar_middle">
+                            <div class="navbar_menu">
+                                <ul class="navbar_menu-list">
+                                    <li class="navbar_menu-item">
+                                        <a href="./watches.html" class="navbar_menu-link">Home</a>
+                                    </li>
+                                    <li class="navbar_menu-item">
+                                        <a href="./shop.html" class="navbar_menu-link">Shop</a>
+                                    </li>
+                                    <li class="navbar_menu-item">
+                                        <a href="./product.html" class="navbar_menu-link">Product</a>
+                                    </li>
+                                    <li class="navbar_menu-item">
+                                        <a href="./pages.html" class="navbar_menu-link">Pages</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="navbar_logo">
+                                <img class="logo" src="./asset/img/logo.png" alt="">
+                            </div>
+                            <div class="navbar_menu">
+                                <ul class="navbar_menu-list">
+                                    <li class="navbar_menu-item">
+                                        <a href="" class="navbar_menu-link">Features</a>
+                                    </li>
+                                    <li class="navbar_menu-item">
+                                        <a href="" class="navbar_menu-link">Blog</a>
+                                    </li>
+                                    <li class="navbar_menu-item">
+                                        <a href="" class="navbar_menu-link">About</a>
+                                    </li>
+                                    <li class="navbar_menu-item">
+                                        <a href="" class="navbar_menu-link">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="navbar_right">
+                            <div class="navbar_rigt-user">
+                                <i id="user" class="navbar_icon-right navbar_icon-user fa fa-user" aria-hidden="true"></i>
+                                <div id="userLayout" class="navbar_user-overlay">
+                                    <div id="userOverlay" class="user_overlay">
+                                        <h3 class="user_header">
+                                            ALREADY GOT AN ACCOUNT?
+                                        </h3>
+                                        <div class="user_input">
+                                            <input class="user_input-item" type="text" placeholder="Username or email address">
+                                            <input class="user_input-item" type="text" placeholder="Password">
+                                        </div>
+                                        <div class="user_save-account">
+                                            <div class="user_save-link">
+                                                <a href="" class="user_save-account-link">Lost your password?
+                                                </a>
+                                            </div>
+                                            <button class="user_save-button" type="radio"></button>
+                                            <p class="user_save-title">Remember me</p>
+                                        </div>
+                                        <div class="user_loading">
+                                            <button class="user_login">LOGIN</button>
+                                            <BUTTON class="user_register">CREATE ACCOUNT</BUTTON>
+                                        </div>
+                                        <i id="userExit" class="user_icon-exit fa fa-times" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="navbar_right-cart">
+                                <i id="cart" class="navbar_icon-right navbar_icon-cart fa fa-shopping-cart" aria-hidden="true"></i>
+                                <div class="navbar_rigt-cart-overlay">
+                                    <div id="cartOverlay" class="cart-overlay">
+                                        <h4 class="cart_header">No products in the cart.</h4>
+                                        <i id="cartExit" class="cart_icon-exit fa fa-times" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="navbar_right-icon-menu">
+                                <i id="menuIcon" class="navbar_right-menu-icon fa fa-bars" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div  class="navbar_right-menu">
+                        <div id="menuList" class="menu_list">
+                            <ul class="navbar_right-menu-list">
+                                <li class="navbar_menu-item">
+                                    <a href="" class="navbar_menu-link">Home</a>
+                                </li>
+                                <li class="navbar_menu-item">
+                                    <a href="" class="navbar_menu-link">Shop</a>
+                                </li>
+                                <li class="navbar_menu-item">
+                                    <a href="" class="navbar_menu-link">Product</a>
+                                </li>
+                                <li class="navbar_menu-item">
+                                    <a href="" class="navbar_menu-link">Pages</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header_body">
+                    <div id="titleBody" class="header_body-title animate__animated">
+                        <h4 class="header_body-c1">Our New Patented Chronometer is</h4>
+                        <h2 id="menuExit" class="header_body-c2">The Swiss Mark</h2>
+                        <p class="header_body-c3">Time is Rendered Timeless in this Premium Watch Collection</p>
+                        <div class="header_body-c4">
+                        <a href="" class="header_body-link">
+                            <span class="header_body-link-title">SHOP COLLECTION</span>
+                            <i class="header_body-icon fa fa-caret-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    </div>
+                    <div class="next_banner">
+                        <i class="next_left fa fa-chevron-left" aria-hidden="true"></i>
+                        <i class="next_right fa fa-chevron-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="middle">
+            <div class="watch-overlay">
+                <div class="watch_c1">
+                    <div id="watchC1" class="watch_c1-layout">
+                    </div>
+                    <div class="watch_content">
+                        <div class="watch_content-item">
+                            <h2 class="watch_content-title-c1">watches</h2>
+                        </div>
+                        <div class="watch_content-item">
+                            <h2 class="watch_content-title-c2">FOR HIM</h2>
+                        </div>
+                    </div>
+                    <a id="watchAnimation" href="#" class="watch_link"></a>
+                </div>
+                <div class="watch_c2">
+                    <div class="watch_c2-layout"></div>
+                    <div class="watch_content">
+                        <div class="watch_content-item">
+                            <h2 class="watch_content-title-c1">watches</h2>
+                        </div>
+                        <div class="watch_content-item">
+                            <h2 class="watch_content-title-c2">FOR HER</h2>
+                        </div>
+                    </div>
+                    <a href="#" class="watch_link"></a>
+                </div>
+                <div class="watch_c3">
+                    <div class="watch_c3-layout"></div>
+                    <div class="watch_content">
+                        <div class="watch_content-item">
+                            <h2 class="watch_content-title-c1">Smart watches</h2>
+                        </div>
+                        <div class="watch_content-item">
+                            <h2 class="watch_content-title-c2">UNISEX</h2>
+                        </div>
+                    </div>
+                    <a href="#" class="watch_link"></a>
+                </div>
+            </div>
+
+                <ul class="watch_list">
+                    <li class="watch_list-item">NEW ARRIVAL</li>
+                    <i class="watch_start-list fa fa-star" aria-hidden="true"></i>
+                    <li class="watch_list-item">FREATURED</li>
+                    <i class="watch_start-list fa fa-star" aria-hidden="true"></i>
+                    <li class="watch_list-item">TOP SELLERS</li>
+                </ul>
+
+                <div class="watch_overlay">
+                    <div class="watch_sale-c1">
+                        <div class="watch_img-c1-overlay">
+                        <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2018/01/air-king-1-270x450.png" class="watch_img-c1"></img>
+                        <div class="watch_sale-img">SALE!</div>
+                        <div class="watch_buy">
+                            <div class="watch_buy_fix">
+                                <i class="fa fa-cart-plus watch_add-cart" aria-hidden="true"></i>
+                                <span class="watch_buy-title">Add to cart</span>
+                                <i class="fa fa-expand watch_expland" aria-hidden="true"></i>
+                                <i class="fa fa-heart-o watch_heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                        
+                        <div class="price_watches">
+                            <h2 class="watch_header">Rolex Air King Perpetual</h2>
+                            <span class="price_saled">$
+                                999
+                            </span>
+                            <span class="price_sale">$
+                                1,199
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="watch_sale-c2">
+                        <div class="watch_img-c1-overlay">
+                        <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2018/01/cat_diamaster_657_0127_3_015-270x450.png" class="watch_img-c1"></img>
+                        <div class="watch_buy">
+                            <div class="watch_buy_fix">
+                                <i class="fa fa-cart-plus watch_add-cart" aria-hidden="true"></i>
+                                <span class="watch_buy-title">Add to cart</span>
+                                <i class="fa fa-expand watch_expland" aria-hidden="true"></i>
+                                <i class="fa fa-heart-o watch_heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                        
+                        <div class="price_watches">
+                            <h2 class="watch_header">Rolex Air King Perpetual</h2>
+                            <span class="price_saled">$
+                                1,299
+                            </span>
+                            <i class="watch_start-full fa fa-star" aria-hidden="true"></i>
+                            <i class="watch_start-full fa fa-star" aria-hidden="true"></i>
+                            <i class="watch_start-full fa fa-star" aria-hidden="true"></i>
+                            <i class="watch_start-full fa fa-star" aria-hidden="true"></i>
+                            <i class="watch_start-full fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="watch_sale-c3">
+                        <div class="watch_img-c1-overlay">
+                        <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2018/01/cat_diamaster_218_0064_3_491-270x450.png" class="watch_img-c1 watch_img-sout"></img>
+                        <div class="watch_img-out-sout">Out of Stock</div>
+                        <div class="watch_buy">
+                            <div class="watch_buy_fix">
+                                <i class="fa fa-cart-plus watch_add-cart" aria-hidden="true"></i>
+                                <span class="watch_buy-title">Add to cart</span>
+                                <i class="fa fa-expand watch_expland" aria-hidden="true"></i>
+                                <i class="fa fa-heart-o watch_heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        </div>
+                        
+                        <div class="price_watches">
+                            <h2 class="watch_header">Rolex Air King Perpetual</h2>
+                            <span class="price_saled">$
+                                869
+                            </span>
+                            <i class="watch_start-full fa fa-star" aria-hidden="true"></i>
+                            <i class="watch_start-full fa fa-star" aria-hidden="true"></i>
+                            <i class="watch_start-full fa fa-star" aria-hidden="true"></i>
+                            <i class="watch_start-full fa fa-star" aria-hidden="true"></i>
+                            <i class="watch_start-full fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="watch_sale-c4">
+                        <div class="watch_img-c1-overlay">
+                        <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2017/12/HyperChrome-Automatic-Chronograph-2-270x450.png" class="watch_img-c1"></img>
+                        <div class="watch_sale-img">SALE!</div>
+                        <div class="watch_buy">
+                            <div class="watch_buy_fix">
+                                <i class="fa fa-cart-plus watch_add-cart" aria-hidden="true"></i>
+                                <span class="watch_buy-title">Add to cart</span>
+                                <i class="fa fa-expand watch_expland" aria-hidden="true"></i>
+                                <i class="fa fa-heart-o watch_heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                        
+                        <div class="price_watches">
+                            <h2 class="watch_header">Rolex Air King Perpetual</h2>
+                            <span class="price_saled">$
+                                789
+                            </span>
+                            <span class="price_sale">$
+                                899
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="watch_sale-c5">
+                        <div class="watch_img-c1-overlay">
+                        <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2018/01/cat_diamaster_772_0140_3_402-270x450.png" class="watch_img-c1"></img>
+                        <div class="watch_sale-img">SALE!</div>
+                        <div class="watch_buy">
+                            <div class="watch_buy_fix">
+                                <i class="fa fa-cart-plus watch_add-cart" aria-hidden="true"></i>
+                                <span class="watch_buy-title">Add to cart</span>
+                                <i class="fa fa-expand watch_expland" aria-hidden="true"></i>
+                                <i class="fa fa-heart-o watch_heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                        
+                        <div class="price_watches">
+                            <h2 class="watch_header">Rolex Air King Perpetual</h2>
+                            <span class="price_saled">$
+                                199
+                            </span>
+                            <span class="price_sale">$
+                                300
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="watch_sale-c6">
+                        <div class="watch_img-c1-overlay">
+                        <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2018/01/cat_hyperchrome_650_0111_3_016-270x450.png" class="watch_img-c1"></img>
+                        <div class="watch_sale-img">SALE!</div>
+                        <div class="watch_buy">
+                            <div class="watch_buy_fix">
+                                <i class="fa fa-cart-plus watch_add-cart" aria-hidden="true"></i>
+                                <span class="watch_buy-title">Add to cart</span>
+                                <i class="fa fa-expand watch_expland" aria-hidden="true"></i>
+                                <i class="fa fa-heart-o watch_heart" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        </div>
+                        
+                        <div class="price_watches">
+                            <h2 class="watch_header">Rolex Air King Perpetual</h2>
+                            <span class="price_saled">$
+                                349
+                            </span>
+                            <span class="price_sale">$
+                                549
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop--collection">
+                <div id="collection" class="collection_layout animate__animated"></div>
+                <div class="collection_title">
+                    <h1 class="collection-c1">
+                        Cellini Dual
+                    </h1>
+                    <p class="collection-c2">
+                        Turbo-charge your casual game with a Chrome, Diamond or Platinum Collection Watch
+                    </p>
+                    <span class="collection-c3">
+                        SHOP COLLECTION
+                        <i class="header_body-icon fa fa-caret-right" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="collect--banner">
+                <div class="shop_collect-left">
+                    <div class="shop_collect-left-layout"></div>
+                    <div class="shop_collect-left-fix">
+                        <h2 class="shop_collect-left-c1">
+                            OFFICE GEAR
+                        </h2>
+                        <p class="shop_collect-left-c2">
+                            Our New Office Collection is totally
+                        </p>
+                        <p class="shop_collect-left-c3">
+                            dank at 20% Off
+                        </p>
+                        <span class="shop_collect-left-c4">
+                            SHOP NOW
+                        </span>
+                    </div>
+                </div>
+                <div class="shop_collect-right">
+                    <div class="shop--collect-right-fix">
+                        <div class="shop_collect-right-layout"></div>
+                        <div class="shop_collect-right-title">
+                            <h2 class="shop_collect-right-c1">
+                                Statement of Luxury
+                            </h2>
+                            <h2 class="shop_collect-right-c2">
+                                The Vintage Cut
+                            </h2>
+                            <span class="shop_collect-right-c3">
+                                SHOP COLLECTION
+                                <i class="shop_collection-icon fa fa-caret-right" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop--suppport">
+                <div class="shop_support-fix1">
+                    <div class="shop_support-icons">
+                        <i class="shop_support-icon fa fa-gift" aria-hidden="true"></i>
+                    </div>
+                    <div class="shop_support-wrap">
+                        <p class="shop_support-wrap-c1">GIFT WRAP AVAILABLE</p>
+                        <p class="shop_support-wrap-c2">For all orders that can be shipped</p>
+                    </div>
+                </div>
+
+                <div class="shop_support-fix2">
+                    <div class="shop_support-icons">
+                        <i class="shop_support-icon fa fa-truck" aria-hidden="true"></i>
+                    </div>
+                    <div class="shop_support-wrap">
+                        <p class="shop_support-wrap-c1">SHIPPING IN ON US</p>
+                        <p class="shop_support-wrap-c2">Free shipping on Orders above $50
+                        </p>
+                    </div>
+                </div>
+
+                <div class="shop_support-fix3">
+                    <div class="shop_support-icons">
+                        <i class="shop_support-icon fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div class="shop_support-wrap">
+                        <p class="shop_support-wrap-c1">24/7 CUSTOM SUPPORT</p>
+                        <p class="shop_support-wrap-c2">Live chat and Telephonic support</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop--client">
+                <div class="client_items-layout">
+                    <div class="client_items">
+                        <a href="" class="clien_items-link">
+                            <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2017/10/client3-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="client_items">
+                        <a href="" class="clien_items-link">
+                            <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2017/10/client2-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="client_items">
+                        <a href="" class="clien_items-link">
+                            <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2017/10/client1-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="client_items">
+                        <a href="" class="clien_items-link">
+                            <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2017/10/client6.png" alt="">
+                        </a>
+                    </div>
+                    <div class="client_items">
+                        <a href="" class="clien_items-link">
+                            <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2017/10/client5.png" alt="">
+                        </a>
+                    </div>
+                    <div class="client_items">
+                        <a href="" class="clien_items-link">
+                            <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2017/10/client4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="client_items">
+                        <a href="" class="clien_items-link">
+                            <img src="https://preview.codeless.co/june/watches/wp-content/uploads/2017/10/client3.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop--social">
+                <div class="shop_social">
+                    <div class="shop_social-layout">
+                        <div class="shop_social-header">
+                            <p class="social_header">Connect with Us</p>
+                        </div>
+                        <div class="shop_social-footer">
+                            <a href="" class="shop_social-link">
+                                <i class="social_icon-c1 fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="" class="shop_social-link">
+                                <i class="social_icon fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="" class="shop_social-link">
+                                <i class="social_icon fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="" class="shop_social-link">
+                                <i class="social_icon fa fa-pinterest" aria-hidden="true"></i>
+                            </a>
+                            <a href="" class="shop_social-link">
+                                <i class="social_icon fa fa-google" aria-hidden="true"></i>
+                            </a>
+                            <a href="" class="shop_social-link">
+                                <i class="social_icon fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="" class="shop_social-link">
+                                <i class="social_icon fa fa-vimeo" aria-hidden="true"></i>
+                            </a>
+                            <a href="" class="shop_social-link">
+                                <i class="social_icon fa fa-youtube-play" aria-hidden="true"></i>
+                            </a>                            
+                        </div>
+                    </div>
+                    <div class="shop_sub">
+                          <div class="shop_sub-layout">
+                            <div class="shop_sub-header">
+                                <p class="sub_header">
+                                    Subscribe to our newsletter & get 10% Off*
+                                </p>
+                            </div>
+                            <div class="shop_sub-input">
+                                <input type="email" class="sub_input" placeholder="Enter Your Email" required>
+                                <input type="submit" class="sub_input-submit" value="Subscribe">
+                            </div>
+                          </div>  
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop--list-footer">
+                <div class="list_footer-layout">
+                    <div class="list_footer-c1">
+                        <div class="list_footer-r1">
+                            <img src="./asset/img/logo.png" class="list_footer-r1-img" alt="">
+                        </div>
+                        <p class="list_footer-r2">TAGS</p>
+                        <div class="list_footer-r3">
+                            <a href="" class="list_footer-r3-link">Clothes</a>
+                            <a href="" class="list_footer-r3-link">Fashion</a>
+                            <a href="" class="list_footer-r3-link">Lifestyle</a>
+                            <a href="" class="list_footer-r3-link">Sunglasses</a>
+                        </div>
+                        <p class="list_footer-r4">
+                            We're on:
+                        </p>
+                        <div class="list_footer-r5">
+                            <a href="" class="list_footer-r5-link">
+                                <img src="https://codeless.co/june/default/wp-content/uploads/2017/09/google_play.png" alt="" class="list_footer-r5-link-download">
+                            </a>
+                            <a href="" class="list_footer-r5-link">
+                                <img src="https://codeless.co/june/default/wp-content/uploads/2017/09/app_store.png" alt="" class="list_footer-r5-link-download">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="list_footer-c2">
+                        <div class="list_footer-r1">
+                            <h3 class="list_footer-r1-header">QUESTIONS</h3>
+                        </div>
+                        <ul class="list_footer-r2">
+                            <li class="list_footer-r2-item">Help</li>
+                            <li class="list_footer-r2-item">FAG</li>
+                            <li class="list_footer-r2-item">Contact Us</li>
+                            <li class="list_footer-r2-item">Live chat</li>
+                            <li class="list_footer-r2-item">Shipping</li>
+                            <li class="list_footer-r2-item">Returns</li>
+                            <li class="list_footer-r2-item">Track Order</li>
+                        </ul>
+                    </div>
+
+                    <div class="list_footer-c3">
+                        <div class="list_footer-r1">
+                            <h3 class="list_footer-r1-header">ABOUT US</h3>
+                        </div>
+                        <ul class="list_footer-r2">
+                            <li class="list_footer-r2-item">Privacy Policy</li>
+                            <li class="list_footer-r2-item">Terms of Use</li>
+                            <li class="list_footer-r2-item">Sitemap</li>
+                            <li class="list_footer-r2-item">Wishlist</li>
+                            <li class="list_footer-r2-item">My account</li>
+                            <li class="list_footer-r2-item">Shopping Cart</li>
+                        </ul>
+                    </div>
+
+                    <div class="list_footer-c4">
+                        <div class="list_footer-r1">
+                            <h3 class="list_footer-r1-header">QUICK LINKS</h3>
+                        </div>
+                        <ul class="list_footer-r2">
+                            <li class="list_footer-r2-item">My Account</li>
+                            <li class="list_footer-r2-item">What's New</li>
+                            <li class="list_footer-r2-item">Men</li>
+                            <li class="list_footer-r2-item">Women</li>
+                            <li class="list_footer-r2-item">Lookbook</li>
+                            <li class="list_footer-r2-item">Coupons & Discounts</li>
+                            <li class="list_footer-r2-item">Track Order</li>
+                        </ul>
+                    </div>
+
+                    <div class="list_footer-c5">
+                        <div class="list_footer-r1">
+                            <h3 class="list_footer-r1-header">INSTAGRAM @JUNEFASHION</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="go--top">
+                <a id="goTop" href="#" class="go_top">
+                    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <footer class="copyright">
+                <p class="copyright_item">
+                    ©2022 July 26th. All Rights Reserved.
+                    <a href="" class="copyright_link">Duy & Kham</a>
+                </p>
+                
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

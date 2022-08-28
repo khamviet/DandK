@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --white-color: #fff;
+    --text-color: #262a2c;
+    --color-main-pages: #78dcfa;
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@font-face {
+    font-family: MyfirstFont;
+    src: url(./Srisakdi-Bold.ttf);
+}
+
+.checked {
+    opacity: 1;
+}
